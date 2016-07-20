@@ -1,0 +1,113 @@
+@import bourbon
+@import fonts.sass
+@import vars.sass
+
+body
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "UbuntuRegular", sans-serif
+	overflow-x: hidden
+	font-size: em(20px)
+	color: $text
+
+a
+	color: $text
+	outline: none !important
+
+.hidden
+	display: none
+
+.main-head
+	height: 160px
+
+.mnu-line
+	padding-top: 30px
+
+nav
+	ul
+		list-style-type: none
+		padding: 0
+		margin: 0
+	li
+		display: inline-block	
+		span
+			color:#8cb420
+
+.main-mnu
+	font-family: "UbuntuBold", sans-serif
+	text-align: right
+	font-size: em(18px)
+	> ul
+		> li
+			> a
+				display: block
+				margin: 12px 18px
+				color:#303030
+				text-decoration:none
+				+mt(.1s)
+				&:hover
+					text-decoration: none
+					border-bottom: 3px solid $green	
+					span
+						color: $text			
+				&:active
+					span
+						color: $acsent
+
+.s-wide
+	height: 380px
+.s-blue
+	background: url("img/banner.jpg") repeat 0 0
+	color: #fff
+
+.s-adv-item
+	font-size: em(19px)
+	line-height: em(28px)
+	font-family: "UbuntuLight", sans-serif
+	color: #fff
+	h1
+		font-size: em(48px)
+		font-family: "UbuntuLight", sans-serif
+		font-weight: 300
+		line-height: em(30px)
+		margin-top: 50px
+		margin-bottom: 10px
+	span
+		font-family: "UbuntuBold", sans-serif
+
+i
+	display: block
+	min-height: 60px
+	min-width: 70px
+	margin-bottom: 30px
+
+.s-serv
+	padding-top: 70px
+	width 270px
+	font-family: "Ubuntulight", sans-serif
+	span
+		display: block
+		margin: 30px 0px
+		font-size: em(18px)
+		line-height: em(28px)
+
+	.serv-icon-1
+		background: url("img/icon1.gif") no-repeat 5px 50%
+	.serv-icon-2
+		background: url("img/icon2.gif") no-repeat 5px 50%
+	.serv-icon-3
+		background: url("img/icon3.gif") no-repeat 5px 50%
+	h2
+		font-weight: 300
+	 	font-size: em(23px)
+  strong
+   	border-bottom: 1px solid $green
+   	color: $green
+
+
+	
+
+
+
+ 

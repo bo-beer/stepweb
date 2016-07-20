@@ -1,0 +1,60 @@
+@import bourbon
+@import vars.sass
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+.slide
+	img 
+		margin: 0 15px 0
+
+.client
+	margin-left: 30px
+	
+.tel, .mail
+	display: inline-block
+	text-align: center
+
+.tel, .mail
+		div:first-of-type
+			font-size: em(24px)
+			line-height: 50px
+			font-family: 'UbuntuBold', sans-serif
+
+.tel, .mail
+	a
+		color: #fff
+		text-decoration: none
+		border-bottom: 1px dashed #fff
+
+.contact
+	
+	
+
+
+//ALWAYS END
+@import media
+
+//Load Libs SASS
+@import app/libs/animate/animate.sass
